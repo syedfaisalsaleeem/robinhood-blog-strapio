@@ -3,14 +3,14 @@
 # Windows
 ############################
 
-backend/Thumbs.db
-backend/ehthumbs.db
-backend/Desktop.ini
-backend/$RECYCLE.BIN/
-backend/*.cab
-backend/*.msi
-backend/*.msm
-backend/*.msp
+/backend/Thumbs.db
+/backend/ehthumbs.db
+/backend/Desktop.ini
+/backend/$RECYCLE.BIN/
+/backend/*.cab
+/backend/*.msi
+/backend/*.msm
+/backend/*.msp
 
 
 ############################
