@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restraunts",
+  "info": {
+    "name": "Restraunt"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "boolean"
+    },
+    "categories": {
+      "via": "restraunts",
+      "collection": "category"
+    }
+  }
+}

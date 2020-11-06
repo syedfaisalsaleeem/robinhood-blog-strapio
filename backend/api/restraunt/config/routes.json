@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/restraunts",
+      "handler": "restraunt.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/restraunts/count",
+      "handler": "restraunt.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/restraunts/:id",
+      "handler": "restraunt.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/restraunts",
+      "handler": "restraunt.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/restraunts/:id",
+      "handler": "restraunt.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/restraunts/:id",
+      "handler": "restraunt.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
